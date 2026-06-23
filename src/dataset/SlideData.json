@@ -1,0 +1,70 @@
+{
+  "slides": [
+    {
+      "id": "1",
+      "src": "source/web_banner1.jpg"
+    },
+    {
+      "id": "2",
+      "src": "source/web_banner2.jpg"
+    },
+    {
+      "id": "3",
+      "src": "source/web_banner3.jpg"
+    },
+    {
+      "id": "4",
+      "src": "source/web_banner4.jpg"
+    },
+    {
+      "id": "5",
+      "src": "source/web_banner5.jpg"
+    },
+    {
+      "id": "6",
+      "src": "source/web_banner6.jpg"
+    }
+  ],
+  "quick": [
+    {
+      "id": "1",
+      "src": "source/q1.jpg",
+      "title": "소셜"
+    },
+    {
+      "id": "2",
+      "src": "source/q2.jpg",
+      "title": "외국어"
+    },
+    {
+      "id": "3",
+      "src": "source/q3.jpg",
+      "title": "인문"
+    },
+    {
+      "id": "4",
+      "src": "source/q4.jpg",
+      "title": "자기관리"
+    },
+    {
+      "id": "5",
+      "src": "source/q5.jpg",
+      "title": "경제졍영"
+    },
+    {
+      "id": "6",
+      "src": "source/q6.jpg",
+      "title": "역사문화"
+    },
+    {
+      "id": "7",
+      "src": "source/q7.jpg",
+      "title": "가정생활"
+    },
+    {
+      "id": "8",
+      "src": "source/q8.jpg",
+      "title": "유아어린이"
+    }
+  ]
+}

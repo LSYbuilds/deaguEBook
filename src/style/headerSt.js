@@ -7,6 +7,7 @@ export const HeaderContainer = styled.div`
   left: 0px;
   z-index: 999999;
   width: 100%;
+  background: #fff;
   .inner {
     margin: 0 auto;
     padding-top: 36px;
