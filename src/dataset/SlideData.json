@@ -28,43 +28,57 @@
   "quick": [
     {
       "id": "1",
-      "src": "source/q1.jpg",
+      "src": "source/quick1.png",
       "title": "소셜"
     },
     {
       "id": "2",
-      "src": "source/q2.jpg",
+      "src": "source/quick2.png",
       "title": "외국어"
     },
     {
       "id": "3",
-      "src": "source/q3.jpg",
+      "src": "source/quick3.png",
       "title": "인문"
     },
     {
       "id": "4",
-      "src": "source/q4.jpg",
+      "src": "source/quick4.png",
       "title": "자기관리"
     },
     {
       "id": "5",
-      "src": "source/q5.jpg",
-      "title": "경제졍영"
+      "src": "source/quick5.png",
+      "title": "경제경영"
     },
     {
       "id": "6",
-      "src": "source/q6.jpg",
+      "src": "source/quick6.png",
       "title": "역사문화"
     },
     {
       "id": "7",
-      "src": "source/q7.jpg",
+      "src": "source/quick7.png",
       "title": "가정생활"
     },
     {
       "id": "8",
-      "src": "source/q8.jpg",
+      "src": "source/quick8.png",
       "title": "유아어린이"
     }
+  ],
+  "recoBook": [
+    {
+        "id":"1",
+        "bookname":"N잡러의미래",
+        "writer":"작가이름",
+        "src":"주소"
+    }
+  ],
+  "populerBook":[
+
+  ],
+  "newBook":[
+
   ]
 }

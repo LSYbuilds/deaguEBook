@@ -10,6 +10,7 @@ import Maindata from "../dataset/SlideData.json";
 const Main = () => {
   const [slide] = useState(Maindata.slides);
   const [quick] = useState(Maindata.quick);
+  console.log(quick);
   return (
     <MainContainer>
       <div className="inner">
@@ -17,7 +18,7 @@ const Main = () => {
           <StyledSwiper
             modules={[Autoplay, Navigation]}
             autoplay={{
-              delay: 3000
+              delay: 3000,
             }}
             navigation
             speed={1000}
@@ -31,9 +32,20 @@ const Main = () => {
           </StyledSwiper>
         </div>
         <div className="quick_select">
+          <ul className="quick_select_list">
+            {quick.map((item) => (
+              <li key={item.id}>
+                <div className="quick_icon_box">
+                  <img src={item.src} alt="" />
+                </div>
+                <span className="quick_icon_text">{item.title}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="recommned">
           
         </div>
-        <div className="recommned"></div>
         <div className="bottom_banner"></div>
         <div className="note"></div>
       </div>
