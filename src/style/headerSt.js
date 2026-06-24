@@ -26,6 +26,7 @@ export const HeaderContainer = styled.div`
       .logo {
         width: 175px;
         height: 100%;
+        cursor: pointer;
       }
       .nav {
         height: 100%;
@@ -91,6 +92,7 @@ export const HeaderContainer = styled.div`
           background-image: url(${path}/source/hamberger.png);
           background-repeat: no-repeat;
           background-position: center;
+          border: none;
         }
       }
     }

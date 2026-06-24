@@ -30,7 +30,7 @@ const Header = () => {
                 <p>알림</p>
               </div>
             </div>
-            <div className="map"></div>
+            <button className="map"></button>
           </div>
         </div>
         <div className="header_bottom">

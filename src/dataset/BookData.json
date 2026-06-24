@@ -1,0 +1,94 @@
+{
+  "bookList": [
+    {
+      "id": "1",
+      "title": "추천도서",
+      "list": [
+        {
+          "id": "1",
+          "bookname": "내 직업은 독립운동이오",
+          "writer": "김문",
+          "src": "source/book1.jpg"
+        },
+        {
+          "id": "2",
+          "bookname": "독립운동 100주년 시집",
+          "writer": "한용운,이상화,심훈",
+          "src": "source/book2.jpg"
+        },
+        {
+          "id": "3",
+          "bookname": "세계 독립의 역사",
+          "writer": "델파고 시나씨",
+          "src": "source/book3.jpg"
+        },
+        {
+          "id": "4",
+          "bookname": "지워지고 닞혀진 여성독립군열전",
+          "writer": "신영란",
+          "src": "source/book4.jpg"
+        }
+      ]
+    },
+        {
+      "id": "2",
+      "title": "신착도서",
+      "list": [
+        {
+          "id": "1",
+          "bookname": "하우스 메이드3",
+          "writer": "프리다 맥파든 저/황성연 역",
+          "src": "source/book21.jpg"
+        },
+        {
+          "id": "2",
+          "bookname": "렛뎀 이론",
+          "writer": "멜 로빈스,소이어 로빈스",
+          "src": "source/book22.jpg"
+        },
+        {
+          "id": "3",
+          "bookname": "까칠한 십 대를 위한 토닥토닥 책 처방전",
+          "writer": "권희린",
+          "src": "source/book23.jpg"
+        },
+        {
+          "id": "4",
+          "bookname": "먹는 욕망",
+          "writer": "최형진,김대수",
+          "src": "source/book14.jpg"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "인기도서",
+      "list": [
+        {
+          "id": "1",
+          "bookname": "N잡러의 미래,다중 직업으로 내 인생을 업그레이드하라",
+          "writer": "최민수",
+          "src": "source/book11.jpg"
+        },
+        {
+          "id": "2",
+          "bookname": "한 권으로 끝내는 그리스신화",
+          "writer": "토마스 블린치",
+          "src": "source/book12.jpg"
+        },
+        {
+          "id": "3",
+          "bookname": "꿈을 현실로 만드는 5가지 단계",
+          "writer": "나리지",
+          "src": "source/book13.jpg"
+        },
+        {
+          "id": "4",
+          "bookname": "사라진 패트릭",
+          "writer": "이소피아",
+          "src": "source/book14.jpg"
+        }
+      ]
+    }
+  ]
+}

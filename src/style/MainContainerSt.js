@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 
+const path = process.env.PUBLIC_URL;
 export const MainContainer = styled.div`
   width: 100%;
   height: 100%;
@@ -66,16 +67,43 @@ export const MainContainer = styled.div`
     .book_container {
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 32px;
       width: 100%;
       height: auto;
       .book_list {
         display: flex;
         flex-direction: column;
+        gap: 16px;
         width: 100%;
         height: auto;
         .container_title {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
           width: 100%;
+          height: auto;
+          .title {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            font-size: 40px;
+            font-weight: bold;
+            .plus {
+              border: none;
+              background-image: url(${path}/source/plus.png);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-color: none;
+              width: 50px;
+              height: 100%;
+            }
+          }
+          .toggle_btns {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            width: auto;
+          }
         }
         .list_box {
           display: flex;
@@ -126,4 +154,18 @@ export const MainContainer = styled.div`
       background-color: gold;
     }
   }
+`;
+
+export const ToggleBtn = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: ${(props) => (props.$active ? "#4BA3FF" : "#E6F2FF")};
+  color: ${(props) => (props.$active ? "#FFF" : "#000")};
+  border: none;
+  text-align: center;
+  padding: 0px 45px 0px 45px;
+  height: 100%;
+  border-radius: 200px;
+  cursor: pointer;
 `;
