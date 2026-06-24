@@ -43,8 +43,8 @@ const Main = () => {
             ))}
           </ul>
         </div>
-        <div className="recommned">
-          
+        <div className="book_container">
+
         </div>
         <div className="bottom_banner"></div>
         <div className="note"></div>
