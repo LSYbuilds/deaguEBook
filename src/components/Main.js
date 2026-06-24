@@ -10,6 +10,9 @@ import Maindata from "../dataset/SlideData.json";
 const Main = () => {
   const [slide] = useState(Maindata.slides);
   const [quick] = useState(Maindata.quick);
+  const [recobookdata] = useState(Maindata.recoBook);
+  const [popbookdata] = useState(Maindata.populerBook);
+  const [newbookdata] = useState(Maindata.newBook);
   console.log(quick);
   return (
     <MainContainer>
@@ -36,7 +39,7 @@ const Main = () => {
             {quick.map((item) => (
               <li key={item.id}>
                 <div className="quick_icon_box">
-                  <img src={item.src} alt="" />
+                  <img src={item.src} alt="아이콘이미지" />
                 </div>
                 <span className="quick_icon_text">{item.title}</span>
               </li>
@@ -44,7 +47,37 @@ const Main = () => {
           </ul>
         </div>
         <div className="book_container">
-
+          <div className="book_list">
+            <div className="container_title">
+              <span className="title">
+                추천도서
+                <button className="plus"></button>
+              </span>
+              <div className="toggle_btns">
+                <button className="ebook_btn">E-BOOK</button>
+                <button className="audio_btn">오디오북</button>
+              </div>
+            </div>
+            <ul className="list_box">
+              {recobookdata.map((item) =>(
+                <li key={item.id}>
+                  <div className="book_img">
+                    <img src={item.src} alt="책이미지"></img>
+                  </div>
+                  <div className="book_info">
+                    <span className="book_name">
+                      {item.bookname}
+                    </span>
+                    <span className="book_writer">
+                      {item.writer}
+                    </span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="book_list"></div>
+          <div className="book_list"></div>
         </div>
         <div className="bottom_banner"></div>
         <div className="note"></div>

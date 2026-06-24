@@ -55,18 +55,65 @@ export const MainContainer = styled.div`
             font-size: 18px;
           }
         }
-        li:hover{
-          .quick_icon_text{
+        li:hover {
+          .quick_icon_text {
             font-size: 19px;
             font-weight: bold;
           }
         }
       }
     }
-    .book_container{
+    .book_container {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
       width: 100%;
-      height: 300px;
-      background-color: red;
+      height: auto;
+      .book_list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        .container_title {
+          width: 100%;
+        }
+        .list_box {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          gap: 24px;
+          width: 100%;
+          height: 100%;
+          li {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 16px;
+            width: 338px;
+            height: auto;
+            .book_img {
+              width: 100%;
+              height: 447px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .book_info {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              span:first-child {
+                font-size: 22px;
+                font-weight: bold;
+              }
+              span:last-child {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
     }
     .bottom_banner {
       width: 100%;
