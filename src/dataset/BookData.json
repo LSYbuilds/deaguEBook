@@ -8,29 +8,77 @@
           "id": "1",
           "bookname": "내 직업은 독립운동이오",
           "writer": "김문",
-          "src": "source/book1.jpg"
+          "src": "source/rebook1.jpg"
         },
         {
           "id": "2",
           "bookname": "독립운동 100주년 시집",
           "writer": "한용운,이상화,심훈",
-          "src": "source/book2.jpg"
+          "src": "source/rebook2.jpg"
         },
         {
           "id": "3",
           "bookname": "세계 독립의 역사",
           "writer": "델파고 시나씨",
-          "src": "source/book3.jpg"
+          "src": "source/rebook3.jpg"
         },
         {
           "id": "4",
           "bookname": "지워지고 닞혀진 여성독립군열전",
           "writer": "신영란",
-          "src": "source/book4.jpg"
+          "src": "source/rebook4.jpg"
+        },
+        {
+          "id": "5",
+          "bookname": "내 핑계는 천문학이야",
+          "writer": "조승현",
+          "src": "source/rebook5.jpg"
+        },
+        {
+          "id": "6",
+          "bookname": "그래서 유럽풍이란 게 뭔가요",
+          "writer": "이은화",
+          "src": "source/rebook6.jpg"
+        },
+        {
+          "id": "7",
+          "bookname": "아코디언",
+          "writer": "전명관",
+          "src": "source/rebook7.jpg"
+        },
+        {
+          "id": "8",
+          "bookname": "데미안",
+          "writer": "베르멘 헤세",
+          "src": "source/rebook8.jpg"
+        },
+        {
+          "id": "9",
+          "bookname": "호믿밭의 파수꾼",
+          "writer": "JD셀린저",
+          "src": "source/rebook9.jpg"
+        },
+        {
+          "id": "10",
+          "bookname": "IT 업무의 기본이 되는 컴퓨터 구조 원리 교과서",
+          "writer": "무명",
+          "src": "source/rebook10.jpg"
+        },
+        {
+          "id": "11",
+          "bookname": "늑대아이 아메와 유키",
+          "writer": "호소다 마모루",
+          "src": "source/rebook11.jpg"
+        },
+        {
+          "id": "12",
+          "bookname": "코스모스",
+          "writer": "칼세이건",
+          "src": "source/rebook12.jpg"
         }
       ]
     },
-        {
+    {
       "id": "2",
       "title": "신착도서",
       "list": [

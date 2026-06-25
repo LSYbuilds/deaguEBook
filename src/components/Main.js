@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import { MainContainer, ToggleBtn } from "../style/MainContainerSt";
-import { StyledSwiper } from "../style/SwiperSt";
+import { StyledSwiper, BookSwiper } from "../style/SwiperSt";
 import "swiper/css";
 import "swiper/css/navigation";
 import Maindata from "../dataset/SlideData.json";
@@ -75,21 +75,31 @@ const Main = () => {
                   </ToggleBtn>
                 </div>
               </div>
-              <ul className="list_box">
-                {item.list.map((items) => (
-                  <li key={items.id}>
-                    <div className="book_img">
-                      <img src={items.src} alt="책이미지" />
-                    </div>
+              <div className="book_slide">
+                <BookSwiper
+                  modules={[Navigation]}
+                  slidesPerView={4}
+                  slidesPerGroup={4}
+                  loopAdditionalSlides={4}
+                  navigation
+                  speed={1000}
+                   spaceBetween={16}
+                  loop
+                >
+                  {item.list.map((items) => (
+                    <SwiperSlide key={items.id}>
+                      <div className="book_img">
+                        <img src={items.src} alt="책이미지" />
+                      </div>
+                      <div className="book_info">
+                        <span className="book_name">{items.bookname}</span>
 
-                    <div className="book_info">
-                      <span className="book_name">{items.bookname}</span>
-
-                      <span className="book_writer">{items.writer}</span>
-                    </div>
-                  </li>
-                ))}
-              </ul>
+                        <span className="book_writer">{items.writer}</span>
+                      </div>
+                    </SwiperSlide>
+                  ))}
+                </BookSwiper>
+              </div>
             </div>
           ))}
         </div>
