@@ -86,25 +86,25 @@
           "id": "1",
           "bookname": "하우스 메이드3",
           "writer": "프리다 맥파든 저/황성연 역",
-          "src": "source/book21.jpg"
+          "src": "source/newbook1.jpg"
         },
         {
           "id": "2",
           "bookname": "렛뎀 이론",
           "writer": "멜 로빈스,소이어 로빈스",
-          "src": "source/book22.jpg"
+          "src": "source/newbook2.jpg"
         },
         {
           "id": "3",
           "bookname": "까칠한 십 대를 위한 토닥토닥 책 처방전",
           "writer": "권희린",
-          "src": "source/book23.jpg"
+          "src": "source/newbook3.jpg"
         },
         {
           "id": "4",
           "bookname": "먹는 욕망",
           "writer": "최형진,김대수",
-          "src": "source/book14.jpg"
+          "src": "source/newbook4.jpg"
         }
       ]
     },
