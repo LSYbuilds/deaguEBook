@@ -7,13 +7,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Maindata from "../dataset/SlideData.json";
 import Bookdata from "../dataset/BookData.json";
+import Noticedata from "../dataset/NoticeData.json";
 
 const Main = () => {
   const [slide] = useState(Maindata.slides);
   const [quick] = useState(Maindata.quick);
   const [bookData] = useState(Bookdata.bookList);
+  const [noticeData] = useState(Noticedata.Notice);
   const [btn, setBtn] = useState("1");
-  console.log(bookData);
+  console.log(noticeData);
   return (
     <MainContainer>
       <div className="inner">
@@ -91,8 +93,36 @@ const Main = () => {
             </div>
           ))}
         </div>
-        <div className="bottom_banner"></div>
-        <div className="note"></div>
+        <div className="bottom_banner">
+          <div className="banner_box">
+            <span className="banner_title">웹DB</span>
+            <div className="banner_img">
+              <img src="/source/banner_kiss.png" alt="배너아이콘"></img>
+              <img src="/source/banner_naxos.png" alt="배너아이콘"></img>
+            </div>
+          </div>
+          <div className="banner_box">
+            <span className="banner_title">E-러닝</span>
+            <div className="banner_img">
+              <img src="/source/banner_cplcms.png" alt="배너아이콘"></img>
+              <img src="/source/banner_darak.png" alt="배너아이콘"></img>
+            </div>
+          </div>
+        </div>
+        <div className="note">
+          <div className="note_title">
+            <span className="title">공지사항</span>
+            <button className="plus"></button>
+          </div>
+          <ul className="note_contents">
+            {noticeData.map((item) => (
+              <li key={item.id}>
+                <span className="notice_text">{item.text}</span>
+                <span className="notice_data">{item.date}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </MainContainer>
   );

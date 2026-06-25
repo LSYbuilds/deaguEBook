@@ -1,10 +1,18 @@
 import React from "react";
+import { FooterContainer } from "../style/footerSt";
 
 const Bg = () => {
   return (
-    <header className="header">
+    <FooterContainer>
+      <div className="inner">
+        <div className="fooer_logo">
 
-    </header>
+        </div>
+        <div className="footer_text">
+          
+        </div>
+      </div>
+    </FooterContainer>
   );
 };
 
