@@ -1,5 +1,6 @@
 import React from "react";
 import { HeaderContainer } from "../style/headerSt";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,16 +8,30 @@ const Header = () => {
       <div className="inner">
         <div className="header_top">
           <div className="logo">
-            <img src="/source/Logo.png" alt="Logo" />
+            <Link to="/">
+              <img src="/source/Logo.png" alt="Logo" />
+            </Link>
           </div>
           <div className="nav">
             <ul className="gnb">
-              <li>E-BOOK</li>
-              <li>오디오북</li>
-              <li>E-러닝</li>
-              <li>웹DB</li>
-              <li>이용안내</li>
-              <li>나의도서관</li>
+              <li>
+                <Link to="/ebook">E-BOOK</Link>
+              </li>
+              <li>
+                <Link></Link>오디오북
+              </li>
+              <li>
+                <Link></Link>E-러닝
+              </li>
+              <li>
+                <Link></Link>웹DB
+              </li>
+              <li>
+                <Link></Link>이용안내
+              </li>
+              <li>
+                <Link></Link>나의도서관
+              </li>
             </ul>
           </div>
           <div className="user">

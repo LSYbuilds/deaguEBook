@@ -38,13 +38,17 @@ export const HeaderContainer = styled.div`
           justify-content: space-between;
           li {
             width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
             text-align: center;
             height: 100%;
             font-size: 22px;
             cursor: pointer;
+            a{
+                          display: flex;
+            flex-direction: column;
+            justify-content: center;
+              width: 100%;
+              height: 100%;
+            }
           }
           li:hover{
             color: orange;
