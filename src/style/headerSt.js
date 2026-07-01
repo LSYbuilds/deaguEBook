@@ -29,20 +29,25 @@ export const HeaderContainer = styled.div`
         cursor: pointer;
       }
       .nav {
+        width: 100%;
         height: 100%;
         .gnb {
           width: 100%;
-          height: 100%;
           display: flex;
           flex-direction: row;
-          gap: 72px;
+          justify-content: space-between;
           li {
+            width: 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             text-align: center;
             height: 100%;
             font-size: 22px;
+            cursor: pointer;
+          }
+          li:hover{
+            color: orange;
           }
         }
       }
